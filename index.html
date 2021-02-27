@@ -31,11 +31,10 @@
   <body>
     <header>
       <div class="container">
-        <a class="logotype" href="./">
-          <span class="logotype-part1">Web</span
-          ><span class="logotype-part2">Studio</span>
-        </a>
-        <div class="header-nav">
+        <nav class="header-nav">
+          <a class="logotype" href="./">
+            <span class="logotype-part1">Web</span><span class="logotype-part2">Studio</span>
+          </a>      
           <div>
             <ul class="nav-list">
               <li>
@@ -45,42 +44,30 @@
                 <a href="./portfolio.html" class="nav-link">Портфолио</a>
               </li>
               <li>
-                <a href="./" class="nav-link">Контакты</a>
+                <a href="#Contacts" class="nav-link">Контакты</a>
               </li>
             </ul>
           </div>
           <div>
             <!-- Контакти -->
             <ul class="contacts-list">
-              <!-- contacts-list -->
               <li>
-                <object
-                  data="./images/icons/mail.svg"
-                  type="image/svg+xml"
-                  width="16"
-                  height="12"
-                ></object>
+                <object data="./images/icons/mail.svg" type="image/svg+xml" width="16" height="12"></object>
                 <a href="info@devstudio.com">info@devstudio.com</a>
               </li>
               <li>
-                <object
-                  data="./images/icons/phone.svg"
-                  type="image/svg+xml"
-                  width="16"
-                  height="12"
-                ></object>
+                <object data="./images/icons/phone.svg" type="image/svg+xml" width="16" height="12"></object>
                 <a href="tel:380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </div>
-        </div>
+        </nav>
       </div>
     </header>
 
     <!-- Шапка -->
     <div class="hero">
       <div class="divlogo">
-        <!--<img class="img-size" src="/images/Logo_Head.jpg" alt="" />-->
         <object class="img-size" data="./images/Logo_Head.svg"></object>
         <div class="hero-title">Эффективные решения для вашего бизнеса</div>
         <button class="button-title">
@@ -90,7 +77,6 @@
     </div>
 
     <!-- Особливості -->
-
     <div>
       <ul class="features">
         <li class="features-card">
@@ -150,7 +136,9 @@
 
     <!-- Чим ми займаємось -->
     <div class="working-command-section">
-      <h2 class="working-command-title">Чем мы занимаемся</h2>
+      <div>
+        <h2 class="working-command-title">Чем мы занимаемся</h2>
+      </div>
       <ul class="ourworking">
         <li class="ourworking-card">
           <img
@@ -178,7 +166,9 @@
 
     <!-- Наша команда -->
     <div class="working-command-section">
-      <h2 class="working-command-title">Наша комманда</h2>
+      <div>
+        <h2 class="working-command-title">Наша комманда</h2>
+      </div>
       <ul class="ourcommand">
         <li class="ourcommand-card">
           <img src="./images/Card1.jpg" alt="Игорь Демьяненко" />
@@ -339,7 +329,7 @@
     <footer>
       <div class="main-footer">
         <div class="footer">
-          <div class="thisfooter">
+          <div id="Contacts" class="thisfooter">
             <a class="logotype" href="./">
               <span class="logotype-part1">Web</span
               ><span class="logotype-part2">Studio</span>
