@@ -22,6 +22,7 @@ body {
   background-color: #ffffff;
   width: 100%;
   z-index: 1;
+  border-bottom: 1px solid #ececec;
 }
 
 .header {
@@ -483,7 +484,7 @@ li.active > a {
 }
 
 .link-portfolio-menu {
-  background: #f5f4fa;
+  background: transparent;
   color: #212121;
   font-size: small;
   align-self: auto;
@@ -608,9 +609,9 @@ li.active > a {
     background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-button-footer {
+/*.social-button-footer {
   background: transparent;
-}
+}*/
 
 .button-icon {
   width: 20px;
@@ -635,7 +636,7 @@ li.active > a {
 }
 
 .social-button-footer {
-  color: #fff;
+  color: #ffffff;
   /*background: transparent;*/
   background: rgb(88, 88, 88);
 }
@@ -654,14 +655,6 @@ li.active > a {
   display: flex;
   margin-top: 16px;
   justify-content: space-between;
-}
-
-.socialnetworks-item {
-  margin: 0 5px;
-}
-
-.socialnetworks-item:hover {
-  color: #2196f3;
 }
 
 .socialfooter-title {
